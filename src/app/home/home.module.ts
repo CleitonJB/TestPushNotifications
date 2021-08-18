@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { OneSignal } from '@ionic-native/onesignal/ngx';
 
 @NgModule({
   imports: [
@@ -14,6 +15,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+  providers: [
+    OneSignal
+  ]
 })
 export class HomePageModule {}
