@@ -1,5 +1,7 @@
 {
   "name": "testePush",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
